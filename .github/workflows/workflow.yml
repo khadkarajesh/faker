@@ -8,9 +8,9 @@ jobs:
         python: [ "3.9" ]
     steps:
       - name: Checkout repository
-          uses: actions/checkout@v2
-          with:
-            fetch-depth: 2
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
       - name: Setup Python
         uses: actions/setup-python@master
         with:
